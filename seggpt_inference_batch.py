@@ -25,7 +25,7 @@ def get_args_parser():
     parser.add_argument('--input_video', type=str, help='path to input video to be tested',
                         default=None)
     parser.add_argument('--num_frames', type=int, help='number of prompt frames in video',
-                        default=0)
+                        default=4)
     parser.add_argument('--prompt_image', type=str, nargs='+', help='path to prompt image',
                         default=None)
     parser.add_argument('--prompt_target', type=str, nargs='+', help='path to prompt target',
